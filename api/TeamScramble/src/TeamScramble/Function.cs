@@ -26,20 +26,17 @@ public class Function
         var team1 = players.GetRange(0, listCount);
         var team2 = players.GetRange(listCount, listCount);
         context.Logger.LogInformation("Attacker: Lysekil");
-        // Console.WriteLine("Team 1:");
         foreach (var player in team1)
         {
-            // Console.WriteLine(player);
+            
             context.Logger.LogInformation(player);
         }
 
         context.Logger.LogInformation("--------------");
-        // Console.WriteLine("--------------");
-        // Console.WriteLine("Team 2:");
+
         context.Logger.LogInformation("Defender: Strömstad");
         foreach (var player in team2)
         {
-            // Console.WriteLine(player);
             context.Logger.LogInformation(player);
         }
 
@@ -60,13 +57,11 @@ public class Function
     {
         "frittzinator",
         "gravling138",
-        // "nejon",
         "machinshin",
         "darkling",
         "bathamel",
         "pornflakes",
         "roboduck",
-        // "deja",
         "trayal",
         "geranos",
         "mepzon"
